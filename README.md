@@ -1,1 +1,1 @@
-# DersaneOtomasyonu
+# DershaneOtomasyonu
