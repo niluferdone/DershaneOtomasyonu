@@ -1,0 +1,81 @@
+CREATE trigger silme on Ogrenci
+after delete
+as
+begin
+   if(exists(select * from deleted where cinsiyet='Kýz' and Sube='A'))
+    begin
+     raiserror('A subesindeki kýz öðrencileri silemezsiniz!!',0,0)
+     rollback transaction
+    end
+end
+ 
+ SELECT * FROM Ogrenci
+delete from Ogrenci where cinsiyet='Kýz' and Sube='A'
+
+
+
+
+
+
+
+
+
+create trigger trg_SilineniEkle on Ogretmen
+after delete
+as begin
+insert into silinenogretmenler select Ad,Soyad from deleted
+end
+ 
+ select * from Ogretmen
+delete from Ogretmen where OgretmenId=19 --triggerý test ediyoruz
+select * from silinenogretmenler
+
+
+
+
+
+
+
+
+create trigger trg_Guncelle on Kayit
+after update
+as begin
+--if(update(cinsiyet))
+if(exists(select * from inserted,deleted where inserted.OgrenciID=deleted.OgrenciID and inserted.KayitTarihi!=deleted.KayitTarihi)) 
+--Exists içindeki deðerin olup olmadýðýna bakar.
+begin
+raiserror('Kayit Tarihi Güncellenemez.',1,1)
+rollback transaction
+end
+end
+ 
+--trigger test edilmesi
+select * from Kayit where OgrenciID = 138
+update ogrenci set KayitTarihi = '28.04.1998' where OgrenciID=138
+
+
+
+
+
+
+
+
+ALTER trigger [dbo].[taksitazalt10]
+on [dbo].[Muhasebe]
+after update
+as 
+declare @KayitID INT 
+declare @OdenenAdet int,@YeniÖdenenTaksit int
+Select @OdenenAdet=ÖdenenTaksit, @KayitID=KayitID from deleted
+select @YeniÖdenenTaksit=ÖdenenTaksit, @KayitID=KayitID from inserted
+update Kayit set Taksit=Taksit-@YeniÖdenenTaksit where KayitID=@KayitID
+update Muhasebe set ÖdenenTaksit= ÖdenenTaksit+ @OdenenAdet
+where KayitID=@KayitID
+
+
+
+select * from Muhasebe
+select * from Kayit
+
+
+update Muhasebe set ÖdenenTaksit=2 where KayitID=22

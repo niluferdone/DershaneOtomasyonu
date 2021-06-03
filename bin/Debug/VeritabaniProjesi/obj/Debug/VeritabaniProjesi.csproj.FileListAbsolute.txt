@@ -1,0 +1,15 @@
+C:\Users\ASUS\source\repos\VeritabaniProjesi\VeritabaniProjesi\bin\Debug\VeritabaniProjesi.exe.config
+C:\Users\ASUS\source\repos\VeritabaniProjesi\VeritabaniProjesi\bin\Debug\VeritabaniProjesi.exe
+C:\Users\ASUS\source\repos\VeritabaniProjesi\VeritabaniProjesi\bin\Debug\VeritabaniProjesi.pdb
+C:\Users\ASUS\source\repos\VeritabaniProjesi\VeritabaniProjesi\obj\Debug\VeritabaniProjesi.csprojAssemblyReference.cache
+C:\Users\ASUS\source\repos\VeritabaniProjesi\VeritabaniProjesi\obj\Debug\VeritabaniProjesi.frmDers.resources
+C:\Users\ASUS\source\repos\VeritabaniProjesi\VeritabaniProjesi\obj\Debug\VeritabaniProjesi.frmİndex.resources
+C:\Users\ASUS\source\repos\VeritabaniProjesi\VeritabaniProjesi\obj\Debug\VeritabaniProjesi.frmKayit.resources
+C:\Users\ASUS\source\repos\VeritabaniProjesi\VeritabaniProjesi\obj\Debug\VeritabaniProjesi.frmMuhasebe.resources
+C:\Users\ASUS\source\repos\VeritabaniProjesi\VeritabaniProjesi\obj\Debug\VeritabaniProjesi.Properties.Resources.resources
+C:\Users\ASUS\source\repos\VeritabaniProjesi\VeritabaniProjesi\obj\Debug\VeritabaniProjesi.frmOgrenci.resources
+C:\Users\ASUS\source\repos\VeritabaniProjesi\VeritabaniProjesi\obj\Debug\VeritabaniProjesi.frmOgretmen.resources
+C:\Users\ASUS\source\repos\VeritabaniProjesi\VeritabaniProjesi\obj\Debug\VeritabaniProjesi.csproj.GenerateResource.cache
+C:\Users\ASUS\source\repos\VeritabaniProjesi\VeritabaniProjesi\obj\Debug\VeritabaniProjesi.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\VeritabaniProjesi\VeritabaniProjesi\obj\Debug\VeritabaniProjesi.exe
+C:\Users\ASUS\source\repos\VeritabaniProjesi\VeritabaniProjesi\obj\Debug\VeritabaniProjesi.pdb

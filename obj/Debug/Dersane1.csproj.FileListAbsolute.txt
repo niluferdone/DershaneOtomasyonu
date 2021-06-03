@@ -1,0 +1,23 @@
+c:\users\göksel\documents\visual studio 2012\Projects\Dersane1\Dersane1\bin\Debug\Dersane1.exe.config
+c:\users\göksel\documents\visual studio 2012\Projects\Dersane1\Dersane1\bin\Debug\Dersane1.exe
+c:\users\göksel\documents\visual studio 2012\Projects\Dersane1\Dersane1\bin\Debug\Dersane1.pdb
+c:\users\göksel\documents\visual studio 2012\Projects\Dersane1\Dersane1\obj\Debug\Dersane1.csprojResolveAssemblyReference.cache
+c:\users\göksel\documents\visual studio 2012\Projects\Dersane1\Dersane1\obj\Debug\Dersane1.Form1.resources
+c:\users\göksel\documents\visual studio 2012\Projects\Dersane1\Dersane1\obj\Debug\Dersane1.Properties.Resources.resources
+c:\users\göksel\documents\visual studio 2012\Projects\Dersane1\Dersane1\obj\Debug\Dersane1.csproj.GenerateResource.Cache
+c:\users\göksel\documents\visual studio 2012\Projects\Dersane1\Dersane1\obj\Debug\Dersane1.exe
+c:\users\göksel\documents\visual studio 2012\Projects\Dersane1\Dersane1\obj\Debug\Dersane1.pdb
+C:\Users\Göksel\Documents\Visual Studio 2012\Projects\Dersane1\Dersane1\obj\Debug\Dersane1.Panel.resources
+C:\Users\Göksel\Documents\Visual Studio 2012\Projects\Dersane1\Dersane1\obj\Debug\Dersane1.frmOgrEkle.resources
+C:\Users\ASUS\Desktop\Şule\Dersler (1)\vtys\Dersane1\bin\Debug\Dersane1.exe.config
+C:\Users\ASUS\Desktop\Şule\Dersler (1)\vtys\Dersane1\bin\Debug\Dersane1.exe
+C:\Users\ASUS\Desktop\Şule\Dersler (1)\vtys\Dersane1\bin\Debug\Dersane1.pdb
+C:\Users\ASUS\Desktop\Şule\Dersler (1)\vtys\Dersane1\obj\Debug\Dersane1.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\Şule\Dersler (1)\vtys\Dersane1\obj\Debug\Dersane1.Form1.resources
+C:\Users\ASUS\Desktop\Şule\Dersler (1)\vtys\Dersane1\obj\Debug\Dersane1.frmOgrEkle.resources
+C:\Users\ASUS\Desktop\Şule\Dersler (1)\vtys\Dersane1\obj\Debug\Dersane1.Panel.resources
+C:\Users\ASUS\Desktop\Şule\Dersler (1)\vtys\Dersane1\obj\Debug\Dersane1.Properties.Resources.resources
+C:\Users\ASUS\Desktop\Şule\Dersler (1)\vtys\Dersane1\obj\Debug\Dersane1.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\Şule\Dersler (1)\vtys\Dersane1\obj\Debug\Dersane1.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Şule\Dersler (1)\vtys\Dersane1\obj\Debug\Dersane1.exe
+C:\Users\ASUS\Desktop\Şule\Dersler (1)\vtys\Dersane1\obj\Debug\Dersane1.pdb

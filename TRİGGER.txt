@@ -1,0 +1,68 @@
+--Bölüme uygun ders seçimi
+
+Create trigger Bolum1 on Ogrenci
+for insert
+As
+if(exists(Select * from inserted where Bolum = 'MF' and DersID = '1' or DersID = '2' or DersID = '3' or DersID = '4'))
+Begin
+  raiserror('Bölüme uygun ders seçemediniz',1,1)
+  rollback transaction
+End
+
+
+--tüm bölümlere uygun ders seçimi
+
+Create trigger Bolumm on Ogrenci
+for insert
+As
+if(exists(Select * from inserted where Bolum = 'MF' and DersID = '1' or DersID = '2' or DersID = '3' or DersID = '4' or DersID='10'))
+Begin
+  raiserror('Bölüme uygun ders seçemediniz',1,1)
+  rollback transaction
+End
+ if(exists(Select * from inserted where Bolum = 'TM' and DersID = '1' or DersID = '5' or DersID = '6' or DersID = '7' or DersID='8' or DersID='10'))
+ Begin
+  raiserror('Bölüme uygun ders seçemediniz',1,1)
+  rollback transaction
+End
+ if(exists(Select * from inserted where Bolum = 'TS' and DersID = '5' or DersID = '6' or DersID = '7' or DersID = '8' ))
+ Begin
+  raiserror('Bölüme uygun ders seçemediniz',1,1)
+  rollback transaction
+End
+if(exists(Select * from inserted where Bolum = 'YD' and DersID = '9'  ))
+
+Begin
+  raiserror('Bölüme uygun ders seçemediniz',1,1)
+  rollback transaction
+End
+Begin
+  raiserror('Bölüme uygun ders seçemediniz',1,1)
+  rollback transaction
+End
+
+
+
+-----------------------------------------------------------------------------------
+
+TaksitGüncelleme
+
+
+create trigger taksitazalt10
+on [dbo].[Muhasebe]
+after update
+as 
+declare @KayitID INT 
+declare @OdenenAdet int,@YeniÖdenenTaksit int
+Select @OdenenAdet=ÖdenenTaksit, @KayitID=KayitID from deleted
+select @YeniÖdenenTaksit=ÖdenenTaksit, @KayitID=KayitID from inserted
+update Kayit set Taksit=Taksit-@YeniÖdenenTaksit where KayitID=@KayitID
+update Muhasebe set ÖdenenTaksit= ÖdenenTaksit+ @OdenenAdet
+where KayitID=@KayitID
+
+
+select * from Kayit
+select * from Muhasebe
+
+
+update Muhasebe set ÖdenenTaksit=1   where    KayitID=1
